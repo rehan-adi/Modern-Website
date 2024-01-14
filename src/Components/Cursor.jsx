@@ -21,6 +21,7 @@ function Cursor() {
 
   return (
     <motion.div
+    className='flex justify-center items-center font-semibold text-sm'
       style={{
         width: `${cursorSize}px`,
         height: `${cursorSize}px`,
@@ -31,7 +32,7 @@ function Cursor() {
         left: `${position.x - cursorSize / 2}px`,
         pointerEvents: 'none',
       }}
-    ></motion.div>
+    >Scroll</motion.div>
   );
 }
 

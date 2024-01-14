@@ -8,7 +8,7 @@ export const HoverImageLinks = () => {
         <Link
           heading="THE PLUG"
           subheading="Learn what we do here"
-          imgSrc="src\Components\Images\the-plug-ckay.webp"
+          imgSrc="https://cynthiaugwu.com/images/hovers/plug.png"
           href="#"
         />
         <Link
