@@ -14,13 +14,13 @@ export const HoverImageLinks = () => {
         <Link
           heading="IXPRIENCE"
           subheading="Our work speaks for itself"
-          imgSrc="src\Components\Images\ixperience.png"
+          imgSrc="https://cynthiaugwu.com/images/hovers/ixperience.png"
           href="#"
         />
         <Link
           heading="TWEENMAX"
           subheading="We want cool people"
-          imgSrc="src\Components\Images\titanium.webp"
+          imgSrc="https://cynthiaugwu.com/images/the-plug/titanium.webp"
           href="#"
         />
         <Link
