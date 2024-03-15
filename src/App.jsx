@@ -21,9 +21,9 @@ function App() {
       <Navbar />
       {/* <Cursor/> */}
       <MAinsection />
-      {/* <Secondsection /> /
+      <Secondsection /> /
       <Thirdsection /> 
-      <ROundedsection />
+      {/* <ROundedsection />
       <HoverImageLinks />
       <About />
       <Company/>

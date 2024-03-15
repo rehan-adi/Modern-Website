@@ -23,7 +23,7 @@ function Thirdsection() {
 
     return (
 
-        <div className='h-[100vh] mt-8 mr-36 w-auto flex flex-col items-end justify-start  '>
+        <div className='lg:h-[100vh] max-h-fit py-7 mt-8 lg:mr-36 w-auto flex flex-col items-end justify-start  '>
             <motion.img
             initial={{opacity: 0, y : 25}}
             animate={controls1}
@@ -32,7 +32,7 @@ function Thirdsection() {
             <motion.h1 
             initial={{opacity: 0, y: 33}}
             animate={controls2}
-            className='text-[#000000] mt-8 mr-[350px] text-xl'>Website for IT company based on WEB 3.O</motion.h1>
+            className='text-[#000000] mt-8 px-3 lg:px-0 lg:mr-[350px] text-xl'>Website for IT company based on WEB 3.O</motion.h1>
         </div>
 
     )
