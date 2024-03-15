@@ -28,9 +28,9 @@ function App() {
       <About />
       <Company/>
       <Service/>
-      {/* <Recognition/>
-      <Contact />
-      <Footer /> */}
+      <Recognition/>
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   )
 }
