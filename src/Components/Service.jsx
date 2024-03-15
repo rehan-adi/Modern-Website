@@ -27,18 +27,18 @@ function Service() {
   }, [inView, controls1, controls2, controls3, controls4, controls5 ]);
 
   return (
-    <div id='service' className='h-[65vh] pt-24 flex justify-between px-48 w-auto text-black '>
-    <h1 className='text-black font-medium'>Services</h1>
-    <p className=' about-text font-normal text-6xl '>
+    <div id='service' className='lg:h-[65vh] px-3 max-h-fit lg:pt-24 flex flex-col lg:flex-row justify-between lg:px-48 w-auto py-10 text-black '>
+    <h1 className='text-black font-semibold'>Services</h1>
+    <p className=' about-text font-normal lg:mt-0 mt-10 text-3xl lg:text-6xl '>
     <motion.span 
     initial={{opacity: 0, y : 230}}
     animate={controls1}
     ref={ref}
-    className='ml-32' >We
+    className='lg:ml-32' >We
 know
 it
 is
-quite </motion.span> <br />
+quite </motion.span> <br className='lg:flex hidden'/>
 <motion.span
  initial={{opacity: 0, y : 230}}
  animate={controls2}
@@ -46,7 +46,7 @@ quite </motion.span> <br />
 >challenging
 to
 find
-a </motion.span><br />
+a </motion.span><br className='lg:flex hidden'/>
 <motion.span
  initial={{opacity: 0, y : 230}}
  animate={controls3}
@@ -55,7 +55,7 @@ a </motion.span><br />
 team
 to
 do
-great </motion.span><br />
+great </motion.span><br className='lg:flex hidden'/>
 <motion.span
  initial={{opacity: 0, y : 230}}
  animate={controls4}
@@ -63,7 +63,7 @@ great </motion.span><br />
 >things.
 But
 we
-managed </motion.span><br />
+managed </motion.span><br className='lg:flex hidden'/>
 <motion.span
 initial={{opacity: 0, y : 230}}
 animate={controls5}

@@ -26,9 +26,9 @@ function App() {
       <ROundedsection />
       <HoverImageLinks />
       <About />
-      {/* <Company/>
+      <Company/>
       <Service/>
-      <Recognition/>
+      {/* <Recognition/>
       <Contact />
       <Footer /> */}
     </div>
