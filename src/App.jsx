@@ -19,10 +19,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Cursor/>
-      {/* <Animatedcursor /> */}
+      {/* <Cursor/> */}
       <MAinsection />
-      {/* <Secondsection /> */}
+      {/* <Secondsection /> /
       <Thirdsection /> 
       <ROundedsection />
       <HoverImageLinks />
@@ -31,7 +30,7 @@ function App() {
       <Service/>
       <Recognition/>
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
