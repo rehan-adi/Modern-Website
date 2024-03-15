@@ -23,10 +23,10 @@ function App() {
       <MAinsection />
       <Secondsection /> /
       <Thirdsection /> 
-      {/* <ROundedsection />
+      <ROundedsection />
       <HoverImageLinks />
       <About />
-      <Company/>
+      {/* <Company/>
       <Service/>
       <Recognition/>
       <Contact />

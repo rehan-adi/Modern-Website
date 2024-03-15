@@ -36,42 +36,42 @@ function About() {
   }, [inView, controls1, controls2, controls3, controls4, controls5 ]);
 
   return (
-    <div id='about' className='h-[100vh] pt-24 flex justify-between px-48 w-auto text-black '>
-      <h1 className='text-black font-medium'>About Us</h1>
-      <p className=' about-text font-normal text-6xl '> <motion.span
+    <div id='about' className='lg:h-[100vh] max-h-fit py-14 lg:pt-24 flex flex-col lg:flex-row justify-between px-3 lg:px-48 w-auto text-black '>
+      <h1 className='text-black font-semibold'>About Us</h1>
+      <p className=' about-text font-normal text-3xl mt-10 lg:mt-0 lg:text-6xl '> <motion.span
       initial={{opacity: 0, y : 230}}
       animate={controls1}
       ref={ref}
-       className='ml-24'>We
+       className='lg:ml-24'>We
         help
-        businesses </motion.span> <br />
+        businesses </motion.span> <br className='lg:flex hidden'/>
         <motion.span 
         initial={{opacity: 0, y : 200}}
         animate={controls2}
         ref={ref}
         >to
         re-evaluate
-        their </motion.span> <br />
+        their </motion.span> <br className='lg:flex hidden'/>
         <motion.span
         initial={{opacity: 0, y : 180}}
         animate={controls3}
         ref={ref}
         >digital
         potential
-        and </motion.span><br />
+        and </motion.span><br className='lg:flex hidden'/>
         <motion.span
          initial={{opacity: 0, y : 180}}
          animate={controls4}
          ref={ref}
         >achieve
         greater
-        results. </motion.span> <br />
+        results. </motion.span> <br className='lg:flex hidden'/>
         <motion.span
          initial={{opacity: 0, y : 180}}
          animate={controls5}
          ref={ref}
         >Corporate
-        level </motion.span> <br />
+        level </motion.span> <br className='lg:flex hidden'/>
         <motion.span
          initial={{opacity: 0, y : 180}}
          animate={controls6}
@@ -79,7 +79,7 @@ function About() {
         >companies
         trust
         us
-        to </motion.span><br />
+        to </motion.span><br className='lg:flex hidden'/>
         <motion.span
          initial={{opacity: 0, y : 180}}
          animate={controls7}
@@ -87,14 +87,14 @@ function About() {
         >refresh
         and
         improve
-        their</motion.span> <br />
+        their</motion.span> <br className='lg:flex hidden'/>
        <motion.span
         initial={{opacity: 0, y : 180}}
         animate={controls8}
         ref={ref}
        >brands
         online.
-        Start-ups </motion.span><br />
+        Start-ups </motion.span><br className='lg:flex hidden'/>
        <motion.span
         initial={{opacity: 0, y : 180}}
         animate={controls9}
@@ -102,7 +102,7 @@ function About() {
        >to
         launch
         and
-        set a </motion.span><br />
+        set a </motion.span><br className='lg:flex hidden'/>
         <motion.span
         initial={{opacity: 0, y : 180}}
         animate={controls10}

@@ -3,31 +3,31 @@ import React, { useRef } from "react";
 
 export const HoverImageLinks = () => {
   return (
-    <section className="bg-white text-black p-4 md:p-8">
-      <div className="mx-auto  max-w-5xl">
+    <section className="bg-white text-black p-4 py-14 lg:py-0 md:p-8">
+      <div className="mx-auto max-w-5xl">
         <Link
           heading="THE PLUG"
           subheading="Learn what we do here"
           imgSrc="https://cynthiaugwu.com/images/hovers/plug.png"
-          href="#"
+          // href="#"
         />
         <Link
           heading="IXPRIENCE"
           subheading="Our work speaks for itself"
           imgSrc="https://cynthiaugwu.com/images/hovers/ixperience.png"
-          href="#"
+          // href="#"
         />
         <Link
           heading="TWEENMAX"
           subheading="We want cool people"
           imgSrc="https://cynthiaugwu.com/images/the-plug/titanium.webp"
-          href="#"
+          // href="#"
         />
         <Link
           heading="WEEKEND"
           subheading="Incase you're bored"
           imgSrc="https://wallpapers.com/images/hd/the-weeknd-lighting-up-cigarette-qm9rpqnbw3gpd6tg.jpg"
-          href="#"
+          // href="#"
         />
       </div>
     </section>
