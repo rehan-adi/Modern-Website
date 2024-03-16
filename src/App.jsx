@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Cursor/> */}
+      <Cursor/>
       <MAinsection />
       <Secondsection /> /
       <Thirdsection /> 
@@ -29,7 +29,7 @@ function App() {
       <Company/>
       <Service/>
       <Recognition/>
-      {/* <Contact /> */}
+      <Contact />
       {/* <Footer /> */}
     </div>
   )

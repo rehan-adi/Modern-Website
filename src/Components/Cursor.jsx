@@ -21,7 +21,7 @@ function Cursor() {
 
   return (
     <motion.div
-    className='flex justify-center items-center font-semibold text-sm'
+    className='lg:flex hidden justify-center items-center font-semibold text-sm'
       style={{
         width: `${cursorSize}px`,
         height: `${cursorSize}px`,
