@@ -50,8 +50,8 @@ function Footer() {
 
 
   return (
-    <div className='bg-black flex justify-between px-36 items-center text-white w-auto h-[15vh]'>
-           <div className='flex gap-16'>
+    <div className='bg-black flex justify-between flex-col lg:flex-row lg:px-36 items-center text-white w-auto max-h-fit lg:py-0 py-8 lg:h-[15vh]'>
+           <div className='lg:flex hidden gap-16'>
               <h1 className='relative group'>
                 <motion.span
                 initial={{ opacity:0}}
@@ -67,7 +67,7 @@ function Footer() {
                 className='group-hover:underline cursor-pointer underline-offset-[6px] group-hover:mt-1'>{formattedIST} IST</motion.span>
               </h1>
            </div>
-           <div className='flex  gap-16'>
+           <div className='flex gap-10 lg:gap-16'>
             <h1 className='relative group'>
                 <motion.a href="https://www.linkedin.com/in/md-rehan-89030b289/"
                  initial={{ opacity: 0}}

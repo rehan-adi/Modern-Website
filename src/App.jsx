@@ -30,7 +30,7 @@ function App() {
       <Service/>
       <Recognition/>
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
