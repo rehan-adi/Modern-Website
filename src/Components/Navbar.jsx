@@ -63,12 +63,15 @@ function Navbar() {
                             className='h-full bg-black w-[100vw] p-4 text-white'
                             onClick={(e) => e.stopPropagation()}
                         >
-                            <button className="absolute top-2 right-2 text-white" onClick={toggleSidebar}><GrClose /></button>
-                            <ul className='space-y-4'>
-                                <li><Link to='about' spy={true} smooth={true} offset={10} duration={3000}>About Us</Link></li>
-                                <li><Link to='service' spy={true} smooth={true} offset={10} duration={3000}>Services</Link></li>
-                                <li><Link to='contact' spy={true} smooth={true} offset={10} duration={3000}>Contacts</Link></li>
+                            <button className="absolute top-8 right-10 text-2xl text-white" onClick={toggleSidebar}><GrClose /></button>
+                            <ul className='space-y-8 flex px-5 h-[80vh] flex-col items-start justify-center'>
+                                <li className='text-xl'><Link to='about' spy={true} smooth={true} offset={10} duration={3000}>About Us</Link></li>
+                                <li className='text-xl'><Link to='service' spy={true} smooth={true} offset={10} duration={3000}>Services</Link></li>
+                                <li className='text-xl'><Link to='contact' spy={true} smooth={true} offset={10} duration={3000}>Contacts</Link></li>
                             </ul>
+                            <div className='w-full text-center'>
+                                <h1 className='text-white text-2xl tracking-wider font-normal'>Created by @Rehan</h1>
+                            </div>
                         </motion.div>
                     </motion.div>
                 )}

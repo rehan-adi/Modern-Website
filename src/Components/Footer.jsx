@@ -67,7 +67,7 @@ function Footer() {
                 className='group-hover:underline cursor-pointer underline-offset-[6px] group-hover:mt-1'>{formattedIST} IST</motion.span>
               </h1>
            </div>
-           <div className='flex gap-10 lg:gap-16'>
+           <div className='flex gap-6 lg:gap-16'>
             <h1 className='relative group'>
                 <motion.a href="https://www.linkedin.com/in/md-rehan-89030b289/"
                  initial={{ opacity: 0}}
